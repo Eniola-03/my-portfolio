@@ -1,0 +1,98 @@
+#contact {
+    background-color: crimson;
+
+}
+
+
+.text-10 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.text-5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.socials {
+    list-style: none;
+    font-size: 26px;
+    display: flex;
+    padding-top: 3rem;
+    margin: 0;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    gap: 1rem;
+}
+
+.socials li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.socials li a:hover {
+    color: gold;
+}
+
+form {
+    padding: 1rem;
+    margin: 0 auto;
+    display: block;
+    max-width: 500px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    color: crimson;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: 2px solid crimson;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}

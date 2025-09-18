@@ -1,0 +1,87 @@
+.container{
+    padding-top: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .heading{
+    text-align: center;
+  }
+  
+  .about_me{
+    background-color: crimson;
+    padding: 0.5rem;
+    align-items: center;
+  }
+  
+  .know_me{
+    font-weight: 700;
+  }
+  
+  .desc-body{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  .desc{
+    width: 60%;
+  }
+  
+  .desc-heading{
+    font-weight: 400;
+  }
+  
+  .desc-name{
+    font-weight: 800;
+    border-bottom: 0.2rem solid crimson;
+  }
+  
+  .experience{
+    width: 35%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+  .five{
+    font-size: 70px;
+    background-color: crimson;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .about-skill{
+    transition: 0.3s;
+  }
+
+  .about-skill p{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .progress{
+    height: 8px;
+  }
+
+  .progressbar{
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 50px;
+    background: crimson
+  }
+
+  .text-4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.skill p{
+  display:flex;
+  justify-content: space-between;
+}
+
+@media screen and(max-width:800px){
+  .row{
+    display: flex;
+  }
+}

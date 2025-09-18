@@ -1,0 +1,85 @@
+.cover{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 2rem;
+    height: 40rem;
+
+}
+
+.introContent{
+    align-self: center;
+}
+
+.hello{
+    font-size: 40px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.name{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    padding-bottom: 0;
+    display: inline-block;
+    animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn{
+    background-color: black; 
+    padding: 1rem;
+    color: white;
+    border: none;
+    margin-right: 1rem;
+}
+
+.btnTwo{
+    border: 0.2rem solid black;
+    color: black;
+    background-color: crimson;
+    padding: 0.8rem;
+}
+
+.headshot{
+    border: 0.5rem solid white;
+    border-radius: 50%;
+    align-self: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .cover{
+        display: inline-block;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: 70rem;
+        padding: 2rem;
+    }
+
+    .headshot{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+
+    .introContent{
+        position: relative;
+        top: 25%;
+    }
+}
