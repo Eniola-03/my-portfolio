@@ -105,8 +105,16 @@
     padding: 8px;
   }
 
+  .info-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem 1rem 2rem;
+  }
+
   .skill p {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
   }
 }

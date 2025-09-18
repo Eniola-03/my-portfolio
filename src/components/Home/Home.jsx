@@ -10,10 +10,10 @@ const Home = () => {
         <div className='cover'>
                    <div className='introContent'>
                        <h1 className='hello'>Hello, I'm<br/><span className='name'>Mustapha Eniola</span><br/>a SOFTWARE DEVELOPER</h1>
-                       <p>I'm a Software developer with a passion for developing simple, clean and slick websites that <br/>provide real value to the end user. Delivering work within time which meets client’s requirements is our motto.</p>
+                       <p>I'm a Software developer with a passion for developing simple, clean and slick websites that provide real value to the end user. Delivering work within time which meets client’s requirements is our motto.</p>
                        <Link><button className='btn btn-dark'>Resume</button></Link>
                     </div>
-                      <img src={Image1} alt=''  style={{ height: "30rem", width: "30rem"}} className='headshot'/>
+                      <img src={Image1} alt='' className='headshot'/>
             </div>
         </div>
     </>

@@ -46,10 +46,12 @@ function Contact() {
       <div className='container pb-5'>
         <div className='row contact-row'>
           <div className='col-12 col-md-6'>
-            <h2 className='text-10 mb-4 text-center'>Let's Connect</h2>
+            <h2 className='text-10 mb-4 text-center connect'>Let's Connect</h2>
             <p className='text-5 mb-4'>I would love to hear about your project ideas and challenges. Feel free to reach out, and let's create something amazing together!</p>
-            <h3 className='contact-heading text-5'>Phone:</h3>
-            <p className='text-4'>08103866040</p>
+            <div className='contact-info'>
+              <h3 className='contact-heading text-5'>Phone:</h3>
+              <p className='text-4'>08103866040</p>
+            </div>
             <ul className='socials mt-4'>
               <li><a href='https://instagram.com' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-instagram"></i></a></li>
               <li><a href='https://whatsapp.com' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-whatsapp"></i></a></li>
@@ -58,7 +60,7 @@ function Contact() {
             </ul>
           </div>
           <div className='col-12 col-md-6'>
-            <h2 className='text-10 mb-4 text-center'>Get a Quote</h2>
+            <h2 className='text-10 mb-4 text-center quote'>Get a Quote</h2>
             <form ref={form} onSubmit={sendEmail} className='contact-form'>
                 <label htmlFor="user_name">Name:</label>
                 <input type="text" id="user_name" name="user_name" placeholder="Enter your name" />

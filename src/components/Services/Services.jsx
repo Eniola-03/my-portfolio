@@ -10,7 +10,7 @@ function Services() {
         </span>
         <div className='services-container'>
             <div className='row'>
-                <div className='col-12 col-md-4'>
+                <div className='col-12 col-md-4 mt-3'>
                     <span className='icon'><i class="fa-brands fa-stack-overflow"></i></span>
                     <h3 className='services-heading'>Web Design</h3>
                     <p className='services-desc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>

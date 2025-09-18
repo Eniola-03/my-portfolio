@@ -3,6 +3,14 @@
 
 }
 
+.connect, .quote{
+    background-color: black;
+    border: solid black 0.2rem;
+    padding: 0.5rem;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
 
 .text-10 {
     font-size: 2rem;
@@ -22,15 +30,21 @@
     margin-bottom: 1rem;
 }
 
+.contact-info {
+   display: flex;
+}
+
+.contact-heading{
+    margin-right: 2rem;
+}
+
 .socials {
     list-style: none;
     font-size: 26px;
     display: flex;
     padding-top: 3rem;
     margin: 0;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    gap: 1rem;
+    justify-content: space-between;
 }
 
 .socials li a {
@@ -115,7 +129,9 @@ button:hover {
     }
 
     .socials {
-        flex-direction: column;
+        display: flex;
+        padding-top: 0;
+        padding-bottom: 2rem;
         align-items: center;
         gap: 0.5rem;
     }

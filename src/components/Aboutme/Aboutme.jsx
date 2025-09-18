@@ -4,11 +4,11 @@ import './Aboutme.css'
 function Aboutme() {
   return (
     <div id='about' className='container'>
-    <div className='heading'>
-      <span className='about_me mb-2'>About me</span>
-      <h2 className='know_me mb-5'>Know me more</h2>
+    <div className='heading mt-2'>
+      <span className='about_me mb-2 mt-2'>About me</span>
+      <h2 className='know_me mt-2 mb-2'>Know me more</h2>
     </div>
-    <div className='desc-body pt-3'>
+    <div className='desc-body'>
       <div className='desc'>
           <h2 className='desc-heading'>Hi, I'm <span className='desc-name'>Mustapha Eniola</span></h2>
           <p>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our motto.</p>

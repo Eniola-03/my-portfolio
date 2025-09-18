@@ -63,8 +63,8 @@
     border: 0.5rem solid white;
     border-radius: 50%;
     align-self: center;
-    max-width: 100%;
-    height: auto;
+    width: 30rem;
+    height: 30rem;
 }
 
 /* Responsive styles */
@@ -74,23 +74,28 @@
         justify-content: center;
         align-content: center;
         text-align: center;
-        height: 70rem;
         padding: 2rem;
     }
 
     .headshot{
-        position: absolute;
-        top: 20%;
-        left: 15%;
+        display: none;
     }
 
     .introContent{
         position: relative;
-        top: 25%;
+        top: -10%;
     }
 }
 
 @media (max-width: 768px) {
+    .cover{
+        display: inline-block;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: auto;
+        padding: 3rem;
+    }
     .introContent h1 {
         font-size: 1.8rem;
     }
@@ -106,6 +111,7 @@
 }
 
 @media (max-width: 480px) {
+    
     .introContent h1 {
         font-size: 1.5rem;
     }
@@ -113,6 +119,12 @@
     .introContent p {
         font-size: 0.9rem;
     }
+
+    .headshot{
+        width: 20rem;
+        height: 20rem;
+    }
+
 
     .btn {
         font-size: 0.8rem;
