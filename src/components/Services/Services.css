@@ -7,3 +7,24 @@
     font-size: 32px;
     text-align: center;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .services {
+        padding: 4rem;
+    }
+
+    .icon {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services {
+        padding: 2rem;
+    }
+
+    .icon {
+        font-size: 18px;
+    }
+}

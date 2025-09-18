@@ -2,3 +2,18 @@
     background-color: black;
     padding: 5px 0px;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px 5px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+}

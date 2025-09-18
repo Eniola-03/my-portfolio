@@ -96,3 +96,60 @@ button {
 button:hover {
     background-color: darkred;
 }
+
+@media (max-width: 768px) {
+    #contact {
+        padding: 1rem;
+    }
+
+    .text-10 {
+        font-size: 1.5rem;
+    }
+
+    .text-5 {
+        font-size: 0.9rem;
+    }
+
+    .text-4 {
+        font-size: 1rem;
+    }
+
+    .socials {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    form {
+        padding: 0.5rem;
+        max-width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-10 {
+        font-size: 1.2rem;
+    }
+
+    .text-5 {
+        font-size: 0.8rem;
+    }
+
+    .socials {
+        font-size: 20px;
+    }
+
+    input,
+    textarea {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
